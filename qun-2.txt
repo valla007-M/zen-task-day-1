@@ -1,0 +1,26 @@
+
+OBJECTS AND ITS INTERNAL REPRESENTATION IN JS
+ OBJECTS=>1.in javascript is its most important DATA TYPE.
+ 2.and forms the building blocks for modern javascript.
+ 3.objects are more complex and each object may contain any combination of the PRIMITIVE DATA TYPE as well as reference DATA TYPE.
+ 4. NON PREMITIVE DATATYPE=>array,object=>call by reference.
+ 5.we can use SPREAD operator to avoid call by reference.
+ 6.object=>
+    1.an object
+    2.an array
+    3.JSON
+    4.CLASS
+    5.OOPS
+ 7. keys&values
+ 8.key will be unique.
+ 9.latest key value pair will be considered if the key is COMMAN.
+ 10.we can take value with the help of KEY.
+ 11.key should be =>1.string 2.number 3.boolean 4.null 5.undefined=>this is called primitive data type=>we cannot iterate.
+ 12.to FETCH all the key at once =>OBJECT.KEYS(OBJ);
+ 13.to FETCH all the value at once OBJECT.VALUES(OBJ)
+ 14.it will be only inside the {}.
+ 15.in objact we use multipul keys:values,so we should use "," between the keys:values
+ OBJECT FORMAT:
+  var obj={"key":"value","key1":"value1","key2":"value2","key3":"value3"}
+
+how to fetch one value in the obj=> obj[key1]=>output=>"value1"
